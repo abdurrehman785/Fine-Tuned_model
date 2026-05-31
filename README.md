@@ -8,7 +8,7 @@ The model was trained on the **Awesome-GPT-Prompts** dataset to improve its inst
 
 ## 🚀 Features
 
-* **Base Model:** `TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T`
+* **Base Model:** `TinyLlama/TinyLlama-1.1B-Chat-v1.0 `
 * **Dataset:** `fka/awesome-chatgpt-prompts` (engineered for high-quality persona and prompt generation).
 * **PEFT (LoRA):** Efficiently updates a fraction of the parameters, drastically reducing training time and storage footprint.
 * **Memory Optimization:** 8-bit quantization (`load_in_8bit=True`) allows training and deployment on budget or consumer-grade GPUs without severe performance degradation.
